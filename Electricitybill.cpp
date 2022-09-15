@@ -17,19 +17,19 @@ public:
         if(unit<=100)
             {
             total=unit*2;
-           // cout<<"total is="<<total;
+           
         }
         else if(unit>100&&unit<=200)
         {
             total=(100*2)+((unit-100)*3);
-           // cout<<"total is ="<<total;
+           
         }
         else
         {
 
 
             total=(100*2)+(100*3)+((unit-200)*4);
-           // cout<<"total is ="<<total;
+           
         }
 
 
@@ -37,7 +37,7 @@ public:
     void show()
     {
         cout<<"your amount is ="<<total<<endl;
-          //cin>>total;
+          
     }
 
 };
