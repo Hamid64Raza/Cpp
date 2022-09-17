@@ -1,3 +1,4 @@
+//use of :: oprator in class
 #include<iostream>
 using namespace std;
 class op
