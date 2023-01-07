@@ -6,11 +6,11 @@ class Laptop
 {
 public:
     virtual void CollingSystem()
-                   (
+    {
                      cout<<"I AM HAVING SINGLE HEAT CONDUCTING METAL WITH SMALL SINGLE FAN";
-                    )
+    }
 };
-class GamigLaptop: Public Laptop
+class GamigLaptop : Public Laptop
 {
 public:
     void CollingSystem()
