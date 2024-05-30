@@ -1,3 +1,4 @@
+// This code is example of file handling in c++
 #include<iostream>
 #include<fstream>
 #include<conio.h>
